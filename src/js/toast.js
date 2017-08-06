@@ -9,7 +9,12 @@ $(function() {
 
 		var html = '<div id="' + id + '" class="toast-alert toast flexbox z-depth-1">'+
 				'<div class="box flex-grow-2 toast-message">' + m + '</div>'+
-				'<div class="box toast-close" hidden><i class="material-icons">&#xE5CD</i></div>'+
+				'<div class="box toast-close">'+
+					'<svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">'+
+						'<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>'+
+						'<path d="M0 0h24v24H0z" fill="none"/>'+
+					'</svg>'+
+				'</div>'+
 			'</div>';
 
 		$("#toast-container").append(html);

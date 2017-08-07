@@ -10,7 +10,7 @@ Toast for web and mobile apps.
 
 Simple and beautiful.
 
-### download
+### Download
 
 1. bower
 ```

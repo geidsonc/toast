@@ -1,5 +1,5 @@
 #toast-container {
-	z-index: 1002;
+	z-index: 1070;
 	display: none;
 	position: fixed;
 	bottom: 0;
@@ -8,7 +8,7 @@
 
 .toast {
 	font-family: sans-serif;
-	font-size: 0.8125rem;
+	font-size: 11pt;
 	background-color: #404040;
 	border-radius: 3px;
 	color: #fff;
@@ -16,7 +16,7 @@
 	margin-top: 8px;
 	padding: 15px;
 	transition: all 200ms,-webkit-transform 300ms cubic-bezier(0.165,0.840,0.440,1.000);
-	z-index: 1000;
+	z-index: 1071;
 	width: auto;
 	clear: both;
 	max-width: 100%;
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 480px) {
 	#toast-container {
-		z-index: 1002;
+		z-index: 1072;
 		display: none;
 		position: fixed;
 		bottom: -15px;

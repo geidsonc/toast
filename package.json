@@ -1,4 +1,15 @@
 {
+	"name": "toast",
+	"description": "Diálogos para web na forma de toast",
+	"readmeFile": "README.md",
+	"author": {
+		"name": "Geidson Benício Coelho",
+		"email": "geidsonc@gmail.com"
+	},
+	"contributors": [
+		{"name": "Denisson Leal", "email": "denissonleal@gmail.com"},
+		{"name": "Leandrow", "email": "leandrow01s@gmail.com"}
+	],
 	"private": true,
 	"scripts": {
 		"prod": "gulp --production",

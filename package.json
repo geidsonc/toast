@@ -1,5 +1,5 @@
 {
-	"name": "@lealjs/toast",
+	"name": "lealjs-toast",
 	"description": "Diálogos para web na forma de toast",
 	"readmeFileName": "README.md",
 	"version": "0.1.4",

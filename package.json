@@ -1,7 +1,11 @@
 {
-	"name": "toast",
+	"name": "toastjs",
 	"description": "Diálogos para web na forma de toast",
-	"readmeFile": "README.md",
+	"readmeFileName": "README.md",
+	"version": "0.1.4",
+	"keywords": [
+		"alert", "toast", "messages", "web"
+	],
 	"author": {
 		"name": "Geidson Benício Coelho",
 		"email": "geidsonc@gmail.com"
@@ -14,6 +18,13 @@
 	"scripts": {
 		"prod": "gulp --production",
 		"dev": "gulp watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/geidsonbc/toast"
+	},
+	"bugs": {
+		"url": "https://github.com/geidsonbc/toast/issues"
 	},
 	"devDependencies": {
 		"gulp": "^3.9.1",

@@ -1,5 +1,5 @@
 {
-	"name": "toastjs",
+	"name": "toastsjs",
 	"description": "Diálogos para web na forma de toast",
 	"readmeFileName": "README.md",
 	"version": "0.1.4",
@@ -14,7 +14,6 @@
 		{"name": "Denisson Leal", "email": "denissonleal@gmail.com"},
 		{"name": "Leandrow", "email": "leandrow01s@gmail.com"}
 	],
-	"private": true,
 	"scripts": {
 		"prod": "gulp --production",
 		"dev": "gulp watch"
